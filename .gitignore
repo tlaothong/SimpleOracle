@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+/offchain/DotNet6/.vs/DotNet6/v17/.suo
+/offchain/DotNet6/OracleNet6/bin/Debug/net6.0
+/offchain/DotNet6/OracleNet6/obj
