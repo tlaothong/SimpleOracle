@@ -1,0 +1,2 @@
+# SimpleOracle
+Simple Oracle implementation
