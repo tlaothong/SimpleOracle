@@ -7,6 +7,7 @@ import "@openzeppelin/contracts/token/ERC777/ERC777.sol";
 contract SimEvent {
 
     event MyEvent(uint num, string text);
+    string private oracle;
 
     constructor()
     {
@@ -14,5 +15,13 @@ contract SimEvent {
 
     function raiseMyEvent(uint n, string memory t) public {
         emit MyEvent(n, t);
+    }
+
+    function callbackFromOracle(string memory result) public {
+        oracle = result;
+    }
+
+    function getOracle() view public returns(string memory) {
+        return oracle;
     }
 }

@@ -105,3 +105,6 @@ dist
 /offchain/DotNet6/.vs/DotNet6/v17/.suo
 /offchain/DotNet6/OracleNet6/bin/Debug/net6.0
 /offchain/DotNet6/OracleNet6/obj
+/offchain/DotNet6/.vs/DotNet6
+/offchain/DotNet6/DotNet6/OracleNet5/bin/Debug/net5.0
+/offchain/DotNet6/DotNet6/OracleNet5/obj
